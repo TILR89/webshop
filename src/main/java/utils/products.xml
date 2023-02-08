@@ -1,0 +1,31 @@
+
+<products>
+    <product>
+        <product_name>IPhone</product_name>
+        <product_price>999.90</product_price>
+        <product_description></product_description>
+        <categories_categoru_id>1</categories_categoru_id>
+        <shopping_cart_user_id>0</shopping_cart_user_id>
+    </product>
+    <product>
+        <product_name>Meizu M20</product_name>
+        <product_price>299.90</product_price>
+        <product_description></product_description>
+        <categories_categoru_id>2</categories_categoru_id>
+        <shopping_cart_user_id>0</shopping_cart_user_id>
+    </product>
+    <product>
+        <product_name>Chocolate bar</product_name>
+        <product_price>0.90</product_price>
+        <product_description></product_description>
+        <categories_categoru_id>3</categories_categoru_id>
+        <shopping_cart_user_id>0</shopping_cart_user_id>
+    </product>
+    <product>
+        <product_name>Orangada softdrink</product_name>
+        <product_price>1.90</product_price>
+        <product_description></product_description>
+        <categories_categoru_id>3</categories_categoru_id>
+        <shopping_cart_user_id>0</shopping_cart_user_id>
+    </product>
+</products>

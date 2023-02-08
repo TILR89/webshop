@@ -1,0 +1,40 @@
+<webshop>
+    <users>
+    <user>
+        <user_name></user_name>
+        <user_email></user_email>
+        <user_password></user_password>
+    </user>
+    </users>
+    <orders>
+    <order>
+        <order_id></order_id>
+        <user_id></user_id>
+        <user_name></user_name>
+        <user_email></user_email>
+    </order>
+    </orders>
+    <products>
+    <product>
+        <product_name></product_name>
+        <product_price></product_price>
+        <product_description></product_description>
+        <categories_categoru_id></categories_categoru_id>
+        <shopping_cart_user_id></shopping_cart_user_id>
+    </product>
+    </products>
+    <suppliers>
+        <supplier>
+            <supplier_id></supplier_id>
+            <supplier_name></supplier_name>
+        </supplier>
+    </suppliers>
+    <deliveries>
+        <delivery>
+            <delivery_id></delivery_id>
+            <delivery_status></delivery_status>
+            <user_id></user_id>
+        </delivery>
+    </deliveries>
+
+</webshop>

@@ -1,0 +1,20 @@
+<users>
+    <user>
+        <user_name>John Smith</user_name>
+        <user_email>johny@hmail.com</user_email>
+        <user_password>1111</user_password>
+    </user>
+
+    <user>
+        <user_name>Ed Willson </user_name>
+        <user_email>ed@hmail.com</user_email>
+        <user_password>2222</user_password>
+    </user>
+
+    <user>
+        <user_name>Ray Ban</user_name>
+        <user_email>ray@hmail.com</user_email>
+        <user_password>3333</user_password>
+    </user>
+
+</users>

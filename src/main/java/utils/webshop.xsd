@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="webshop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="users">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="user">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="user_name" />
+                                        <xs:element name="user_email" />
+                                        <xs:element name="user_password" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="orders">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="order">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="order_id" />
+                                        <xs:element name="user_id" />
+                                        <xs:element name="user_name" />
+                                        <xs:element name="user_email" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="products">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="product">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="product_name" />
+                                        <xs:element name="product_price" />
+                                        <xs:element name="product_description" />
+                                        <xs:element name="categories_categoru_id" />
+                                        <xs:element name="shopping_cart_user_id" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="suppliers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="supplier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="supplier_id" />
+                                        <xs:element name="supplier_name" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

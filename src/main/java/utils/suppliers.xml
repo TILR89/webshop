@@ -1,0 +1,14 @@
+<suppliers>
+    <supplier>
+        <supplier_id>1</supplier_id>
+        <supplier_name>FoodMart</supplier_name>
+    </supplier>
+    <supplier>
+        <supplier_id>2</supplier_id>
+        <supplier_name>mApple</supplier_name>
+    </supplier>
+    <supplier>
+        <supplier_id>3</supplier_id>
+        <supplier_name>xMeizu</supplier_name>
+    </supplier>
+</suppliers>
